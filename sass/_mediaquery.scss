@@ -1,0 +1,181 @@
+// Variables
+$main-bg-color: #ffffff;
+$main-gap: 15px;
+$main-font-size: 15px;
+$main-font-size-large: 25px;
+$main-letter-spacing: 5px;
+
+// Mixins
+@mixin grid($cols, $rows, $height) {
+  display: grid;
+  grid-template-columns: repeat(#{$cols}, 1fr);
+  grid-template-rows: repeat(#{$rows}, #{$height}px);
+  grid-gap: $main-gap;
+}
+
+// Media Queries
+@media screen and (max-width: 2000px) and (min-width: 1400px) {
+
+  .mainwear {
+    width: 96%;
+    margin-left: 2%;
+    margin-right: 2%;
+    height: auto;
+    background-color: $main-bg-color;
+    @include grid(3, 2, 700);
+    background-size: cover;
+  }
+
+  .image {
+    width: 500px;
+    height: 700px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .secimg {
+    width: 100%;
+    height: 300px;
+    margin: 0;
+  }
+
+  .secimg h1 {
+    font-size: 40px;
+    padding-top: 120px;
+  }
+
+  .mainhome1 {
+    @include grid(2, 1, 450);
+  }
+
+  .mainhome2 {
+    @include grid(2, 2, 450);
+  }
+
+  .mainhome3 {
+    @include grid(2, 1, 450);
+  }
+
+  .mainshop {
+    @include grid(2, 6, 450);
+  }
+
+  .mainwear {
+    @include grid(2, 3, 600);
+  }
+
+  footer {
+    width: 100%;
+    font-size: $main-font-size;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  footer a {
+    letter-spacing: $main-letter-spacing;
+    font-size: $main-font-size-large;
+  }
+
+  footer p {
+    padding-top: 30px;
+    font-size: $main-font-size;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .redes i {
+    font-size: $main-font-size;
+    letter-spacing: $main-letter-spacing;
+    margin-top: $main-gap;
+    margin-bottom: $main-gap;
+    margin-right: $main-gap;
+  }
+
+  .logo img {
+    height: 65px;
+  }
+
+  span .fa-solid {
+    font-size: 20px;
+    margin-top: 0;
+  }
+
+  .secimg {
+    height: 200px;
+    margin: 0;
+  }
+
+  .secimg h1 {
+    font-size: $main-font-size-large;
+    padding-top: 80px;
+  }
+
+  .mainhome1 {
+    @include grid(1, 3, 400);
+  }
+
+  .mainhome2 {
+    @include grid(1, 4, 400);
+  }
+
+  .mainhome3 {
+    @include grid(1, 3, 400);
+  }
+
+  .mainshop {
+    @include grid(1, 12, 400);
+  }
+
+  .mainwear {
+    @include grid(1, 6, 600);
+  }
+
+  form {
+    width: 70%;
+    max-width: 400px;
+  }
+
+  footer {
+    font-size: $main-font-size-large;
+    padding-top: $main-gap;
+    padding-bottom: $main-gap;
+  }
+
+  footer a {
+    letter-spacing: $main-letter-spacing;
+    font-size: $main-font-size-large;
+  }
+
+  footer p {
+    padding-top: $main-gap;
+    font-size: 10px;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .logo img {
+    height: 50px;
+  }
+
+  .secimg {
+    height: 150px;
+    margin: 0;
+  }
+
+  .secimg h1 {
+    font-size: $main-font-size;
+    padding-top: 60px;
+  }
+
+  .mainhome1 {
+    grid-template-rows: repeat(1, 300px);
+  }
+
+  .mainhome2 {
+    grid-template-rows: repeat(2, 300px);
+  }
+
+  .mainhome3 {
+    grid-template-rows: repeat(1, 300px);
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "name": "pre-entrega3-roque-cugiani-main",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch sass/estilo.scss estilos.css"
+  },
+  "author": "Ignacio Roque",
+  "license": "ISC"
+}
