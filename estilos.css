@@ -50,7 +50,7 @@ span .fa-solid {
   display: flex;
   justify-content: space-between;
   align-items: left;
-  background-color: rgb(255, 255, 255);
+  background-color: white;
   width: 100%;
   padding: 5px;
   padding-left: 20px;
@@ -155,22 +155,22 @@ span .fa-solid {
   scale: 1.01;
 }
 .mainhome2 .image16 {
-  background-image: url(./img/merygonbackpequeña.png);
+  background-image: url(../img/merygonbackpequeña.png);
   background-position: center;
   background-repeat: no-repeat;
 }
 .mainhome2 .image17 {
-  background-image: url(./img/merygonfrontpequeña.png);
+  background-image: url(../img/merygonfrontpequeña.png);
   background-position: center;
   background-repeat: no-repeat;
 }
 .mainhome2 .image18 {
-  background-image: url(./img/pizzabacknegra.png);
+  background-image: url(../img/pizzabacknegra.png);
   background-position: center;
   background-repeat: no-repeat;
 }
 .mainhome2 .image19 {
-  background-image: url(./img/pizzafrontnegra.png);
+  background-image: url(../img/pizzafrontnegra.png);
   background-position: center;
   background-repeat: no-repeat;
 }
@@ -190,17 +190,17 @@ span .fa-solid {
   scale: 1.01;
 }
 .mainhome3 .image20 {
-  background-image: url(./img/classicbackblanca.png);
+  background-image: url(../img/classicbackblanca.png);
   background-position: center;
   background-repeat: no-repeat;
 }
 .mainhome3 .image21 {
-  background-image: url(./img/calidreaming.png);
+  background-image: url(../img/calidreaming.png);
   background-position: center;
   background-repeat: no-repeat;
 }
 .mainhome3 .image22 {
-  background-image: url(./img/classicfrontblanca.png);
+  background-image: url(../img/classicfrontblanca.png);
   background-position: center;
   background-repeat: no-repeat;
 }
@@ -228,62 +228,62 @@ span .fa-solid {
   display: grid;
 }
 .mainshop .image1 {
-  background-image: url(./img/merybacksola.png);
+  background-image: url(../img/merybacksola.png);
   background-position: center;
   background-repeat: no-repeat;
 }
 .mainshop .image2 {
-  background-image: url(./img/semaforo.png);
+  background-image: url(../img/semaforo.png);
   background-position: center;
   background-repeat: no-repeat;
 }
 .mainshop .image3 {
-  background-image: url(./img/chiomerybueno.png);
+  background-image: url(../img/chiomerybueno.png);
   background-position: center;
   background-repeat: no-repeat;
 }
 .mainshop .image4 {
-  background-image: url(./img/humbolt.png);
+  background-image: url(../img/humbolt.png);
   background-position: center;
   background-repeat: no-repeat;
 }
 .mainshop .image5 {
-  background-image: url(./img/riolosang.png);
+  background-image: url(../img/riolosang.png);
   background-position: center;
   background-repeat: no-repeat;
 }
 .mainshop .image6 {
-  background-image: url(./img/nachoperfil.png);
+  background-image: url(../img/nachoperfil.png);
   background-position: center;
   background-repeat: no-repeat;
 }
 .mainshop .image7 {
-  background-image: url(./img/merygonperfil.png);
+  background-image: url(../img/merygonperfil.png);
   background-position: center;
   background-repeat: no-repeat;
 }
 .mainshop .image8 {
-  background-image: url(./img/meryfront.png);
+  background-image: url(../img/meryfront.png);
   background-position: center;
   background-repeat: no-repeat;
 }
 .mainshop .image9 {
-  background-image: url(./img/gonperfil.png);
+  background-image: url(../img/gonperfil.png);
   background-position: center;
   background-repeat: no-repeat;
 }
 .mainshop .image10 {
-  background-image: url(./img/venicebackpequeña.png);
+  background-image: url(../img/venicebackpequeña.png);
   background-position: center;
   background-repeat: no-repeat;
 }
 .mainshop .image11 {
-  background-image: url(./img/knickstriptico.png);
+  background-image: url(../img/knickstriptico.png);
   background-position: center;
   background-repeat: no-repeat;
 }
 .mainshop .image12 {
-  background-image: url(./img/nachovenice.png);
+  background-image: url(../img/nachovenice.png);
   background-position: center;
   background-repeat: no-repeat;
 }
@@ -309,154 +309,154 @@ span .fa-solid {
   display: grid;
 }
 .mainwear .image23 {
-  background-image: url(./img/pizzablancafrontprecio.png);
+  background-image: url(../img/pizzablancafrontprecio.png);
   background-position: center;
   background-repeat: no-repeat;
   width: auto;
   height: 600px;
 }
 .mainwear .image23:hover {
-  background-image: url(./img/pizzablancabackprecio.png);
+  background-image: url(../img/pizzablancabackprecio.png);
   background-position: center;
   background-repeat: no-repeat;
   width: auto;
   height: 600px;
 }
 .mainwear .image24 {
-  background-image: url(./img/pizzanegrafrontprecio.png);
+  background-image: url(../img/pizzanegrafrontprecio.png);
   background-position: center;
   background-repeat: no-repeat;
   width: auto;
   height: 600px;
 }
 .mainwear .image24:hover {
-  background-image: url(./img/pizzanegrabackprecio.png);
+  background-image: url(../img/pizzanegrabackprecio.png);
   background-position: center;
   background-repeat: no-repeat;
   width: auto;
   height: 600px;
 }
 .mainwear .image25 {
-  background-image: url(./img/nncblancafrontprecio.png);
+  background-image: url(../img/nncblancafrontprecio.png);
   background-position: center;
   background-repeat: no-repeat;
   width: auto;
   height: 600px;
 }
 .mainwear .image25:hover {
-  background-image: url(./img/nncblancabackprecio.png);
+  background-image: url(../img/nncblancabackprecio.png);
   background-position: center;
   background-repeat: no-repeat;
   width: auto;
   height: 600px;
 }
 .mainwear .image26 {
-  background-image: url(./img/totepizzaprecio.png);
+  background-image: url(../img/totepizzaprecio.png);
   background-position: center;
   background-repeat: no-repeat;
   width: auto;
   height: 600px;
 }
 .mainwear .image27 {
-  background-image: url(./img/nncnegrafrontprecio.png);
+  background-image: url(../img/nncnegrafrontprecio.png);
   background-position: center;
   background-repeat: no-repeat;
   width: auto;
   height: 600px;
 }
 .mainwear .image27:hover {
-  background-image: url(./img/nncnegrabackprecio.png);
+  background-image: url(../img/nncnegrabackprecio.png);
   background-position: center;
   background-repeat: no-repeat;
   width: auto;
   height: 600px;
 }
 .mainwear .image28 {
-  background-image: url(./img/totesnake.png);
+  background-image: url(../img/totesnake.png);
   background-position: center;
   background-repeat: no-repeat;
   width: auto;
   height: 600px;
 }
 .mainwear .image29 {
-  background-image: url(./img/skullnegraprecio.png);
+  background-image: url(../img/skullnegraprecio.png);
   background-position: center;
   background-repeat: no-repeat;
   width: auto;
   height: 600px;
 }
 .mainwear .image29:hover {
-  background-image: url(./img/skullblancaprecio.png);
+  background-image: url(../img/skullblancaprecio.png);
   background-position: center;
   background-repeat: no-repeat;
   width: auto;
   height: 600px;
 }
 .mainwear .image30 {
-  background-image: url(./img/helmetblancafrontprecio.png);
+  background-image: url(../img/helmetblancafrontprecio.png);
   background-position: center;
   background-repeat: no-repeat;
   width: auto;
   height: 600px;
 }
 .mainwear .image30:hover {
-  background-image: url(./img/helmetblancabackprecio.png);
+  background-image: url(../img/helmetblancabackprecio.png);
   background-position: center;
   background-repeat: no-repeat;
   width: auto;
   height: 600px;
 }
 .mainwear .image31 {
-  background-image: url(./img/helmetnegrafrontprecio.png);
+  background-image: url(../img/helmetnegrafrontprecio.png);
   background-position: center;
   background-repeat: no-repeat;
   width: auto;
   height: 600px;
 }
 .mainwear .image31:hover {
-  background-image: url(./img/helmetnegrabackprecio.png);
+  background-image: url(../img/helmetnegrabackprecio.png);
   background-position: center;
   background-repeat: no-repeat;
   width: auto;
   height: 600px;
 }
 .mainwear .image32 {
-  background-image: url(./img/knicksnegrafrontprecio.png);
+  background-image: url(../img/knicksnegrafrontprecio.png);
   background-position: center;
   background-repeat: no-repeat;
   width: auto;
   height: 600px;
 }
 .mainwear .image32:hover {
-  background-image: url(./img/knicksnegrabackprecio.png);
+  background-image: url(../img/knicksnegrabackprecio.png);
   background-position: center;
   background-repeat: no-repeat;
   width: auto;
   height: 600px;
 }
 .mainwear .image33 {
-  background-image: url(./img/knicksblancafrontprecio.png);
+  background-image: url(../img/knicksblancafrontprecio.png);
   background-position: center;
   background-repeat: no-repeat;
   width: auto;
   height: 600px;
 }
 .mainwear .image33:hover {
-  background-image: url(./img/knicksblancabackprecio.png);
+  background-image: url(../img/knicksblancabackprecio.png);
   background-position: center;
   background-repeat: no-repeat;
   width: auto;
   height: 600px;
 }
 .mainwear .image34 {
-  background-image: url(./img/snakenegrafrontprecio.png);
+  background-image: url(../img/snakenegrafrontprecio.png);
   background-position: center;
   background-repeat: no-repeat;
   width: auto;
   height: 600px;
 }
 .mainwear .image34:hover {
-  background-image: url(./img/snakenegrabackprecio.png);
+  background-image: url(../img/snakenegrabackprecio.png);
   background-position: center;
   background-repeat: no-repeat;
   width: auto;
@@ -489,16 +489,10 @@ span .fa-solid {
   width: 100%;
   margin-bottom: 10px;
 }
-.contact form input[type=text]:focus::-moz-placeholder, .contact form input[type=email]:focus::-moz-placeholder, .contact form textarea:focus::-moz-placeholder {
-  color: transparent;
-}
 .contact form input[type=text]:focus::placeholder,
 .contact form input[type=email]:focus::placeholder,
 .contact form textarea:focus::placeholder {
   color: transparent;
-}
-.contact form textarea::-moz-placeholder {
-  font-family: Arial, sans-serif;
 }
 .contact form textarea::placeholder {
   font-family: Arial, sans-serif;
@@ -577,6 +571,7 @@ footer p {
     grid-gap: 15px;
     background-size: cover;
   }
+
   .image {
     width: 500px;
     height: 700px;
@@ -588,50 +583,59 @@ footer p {
     height: 300px;
     margin: 0;
   }
+
   .secimg h1 {
     font-size: 40px;
     padding-top: 120px;
   }
+
   .mainhome1 {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(1, 450px);
     grid-gap: 15px;
   }
+
   .mainhome2 {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 450px);
     grid-gap: 15px;
   }
+
   .mainhome3 {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(1, 450px);
     grid-gap: 15px;
   }
+
   .mainshop {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(6, 450px);
     grid-gap: 15px;
   }
+
   .mainwear {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(3, 600px);
     grid-gap: 15px;
   }
+
   footer {
     width: 100%;
     font-size: 15px;
     padding-top: 20px;
     padding-bottom: 20px;
   }
+
   footer a {
     letter-spacing: 5px;
     font-size: 25px;
   }
+
   footer p {
     padding-top: 30px;
     font-size: 15px;
@@ -645,64 +649,77 @@ footer p {
     margin-bottom: 15px;
     margin-right: 15px;
   }
+
   .logo img {
     height: 65px;
   }
+
   span .fa-solid {
     font-size: 20px;
     margin-top: 0;
   }
+
   .secimg {
     height: 200px;
     margin: 0;
   }
+
   .secimg h1 {
     font-size: 25px;
     padding-top: 80px;
   }
+
   .mainhome1 {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(3, 400px);
     grid-gap: 15px;
   }
+
   .mainhome2 {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(4, 400px);
     grid-gap: 15px;
   }
+
   .mainhome3 {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(3, 400px);
     grid-gap: 15px;
   }
+
   .mainshop {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(12, 400px);
     grid-gap: 15px;
   }
+
   .mainwear {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(6, 600px);
     grid-gap: 15px;
   }
+
   form {
     width: 70%;
     max-width: 400px;
   }
+
   footer {
     font-size: 25px;
     padding-top: 15px;
     padding-bottom: 15px;
   }
+
   footer a {
     letter-spacing: 5px;
     font-size: 25px;
   }
+
   footer p {
     padding-top: 15px;
     font-size: 10px;
@@ -712,21 +729,28 @@ footer p {
   .logo img {
     height: 50px;
   }
+
   .secimg {
     height: 150px;
     margin: 0;
   }
+
   .secimg h1 {
     font-size: 15px;
     padding-top: 60px;
   }
+
   .mainhome1 {
     grid-template-rows: repeat(1, 300px);
   }
+
   .mainhome2 {
     grid-template-rows: repeat(2, 300px);
   }
+
   .mainhome3 {
     grid-template-rows: repeat(1, 300px);
   }
-}/*# sourceMappingURL=estilos.css.map */
+}
+
+/*# sourceMappingURL=estilos.css.map */
