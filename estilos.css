@@ -49,7 +49,7 @@ span .fa-solid {
   display: flex;
   justify-content: space-between;
   align-items: left;
-  background-color: white;
+  background-color: rgb(255, 255, 255);
   width: 100%;
   padding: 5px;
   padding-left: 20px;
@@ -488,10 +488,16 @@ span .fa-solid {
   width: 100%;
   margin-bottom: 10px;
 }
+.contact form input[type=text]:focus::-moz-placeholder, .contact form input[type=email]:focus::-moz-placeholder, .contact form textarea:focus::-moz-placeholder {
+  color: transparent;
+}
 .contact form input[type=text]:focus::placeholder,
 .contact form input[type=email]:focus::placeholder,
 .contact form textarea:focus::placeholder {
   color: transparent;
+}
+.contact form textarea::-moz-placeholder {
+  font-family: Arial, sans-serif;
 }
 .contact form textarea::placeholder {
   font-family: Arial, sans-serif;
@@ -570,7 +576,6 @@ footer p {
     grid-gap: 15px;
     background-size: cover;
   }
-
   .image {
     width: 500px;
     height: 700px;
@@ -582,59 +587,50 @@ footer p {
     height: 300px;
     margin: 0;
   }
-
   .secimg h1 {
     font-size: 40px;
     padding-top: 120px;
   }
-
   .mainhome1 {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(1, 450px);
     grid-gap: 15px;
   }
-
   .mainhome2 {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 450px);
     grid-gap: 15px;
   }
-
   .mainhome3 {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(1, 450px);
     grid-gap: 15px;
   }
-
   .mainshop {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(6, 450px);
     grid-gap: 15px;
   }
-
   .mainwear {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(3, 600px);
     grid-gap: 15px;
   }
-
   footer {
     width: 100%;
     font-size: 15px;
     padding-top: 20px;
     padding-bottom: 20px;
   }
-
   footer a {
     letter-spacing: 5px;
     font-size: 25px;
   }
-
   footer p {
     padding-top: 30px;
     font-size: 15px;
@@ -648,77 +644,64 @@ footer p {
     margin-bottom: 15px;
     margin-right: 15px;
   }
-
   .logo img {
     height: 65px;
   }
-
   span .fa-solid {
     font-size: 20px;
     margin-top: 0;
   }
-
   .secimg {
     height: 200px;
     margin: 0;
   }
-
   .secimg h1 {
     font-size: 25px;
     padding-top: 80px;
   }
-
   .mainhome1 {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(3, 400px);
     grid-gap: 15px;
   }
-
   .mainhome2 {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(4, 400px);
     grid-gap: 15px;
   }
-
   .mainhome3 {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(3, 400px);
     grid-gap: 15px;
   }
-
   .mainshop {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(12, 400px);
     grid-gap: 15px;
   }
-
   .mainwear {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(6, 600px);
     grid-gap: 15px;
   }
-
   form {
     width: 70%;
     max-width: 400px;
   }
-
   footer {
     font-size: 25px;
     padding-top: 15px;
     padding-bottom: 15px;
   }
-
   footer a {
     letter-spacing: 5px;
     font-size: 25px;
   }
-
   footer p {
     padding-top: 15px;
     font-size: 10px;
@@ -728,28 +711,21 @@ footer p {
   .logo img {
     height: 50px;
   }
-
   .secimg {
     height: 150px;
     margin: 0;
   }
-
   .secimg h1 {
     font-size: 15px;
     padding-top: 60px;
   }
-
   .mainhome1 {
     grid-template-rows: repeat(1, 300px);
   }
-
   .mainhome2 {
     grid-template-rows: repeat(2, 300px);
   }
-
   .mainhome3 {
     grid-template-rows: repeat(1, 300px);
   }
-}
-
-/*# sourceMappingURL=estilos.css.map */
+}/*# sourceMappingURL=estilos.css.map */
