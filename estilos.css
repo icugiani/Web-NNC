@@ -563,24 +563,6 @@ footer p {
   font-size: 15px;
 }
 
-@media screen and (max-width: 2000px) and (min-width: 1400px) {
-  .mainwear {
-    width: 96%;
-    margin-left: 2%;
-    margin-right: 2%;
-    height: auto;
-    background-color: #ffffff;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(2, 700px);
-    grid-gap: 15px;
-    background-size: cover;
-  }
-  .image {
-    width: 500px;
-    height: 700px;
-  }
-}
 @media screen and (max-width: 900px) {
   .secimg {
     width: 100%;
